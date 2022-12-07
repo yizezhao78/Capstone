@@ -31,7 +31,7 @@ const Cart = (props) => {
 
   const context = useContext(AuthGlobal);
 
-  // Add this
+  
   const [productUpdate, setProductUpdate] = useState()
   const [totalPrice, setTotalPrice] = useState()
   useEffect(() => {

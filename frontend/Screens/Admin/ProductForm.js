@@ -113,13 +113,13 @@ const ProductForm = (props) => {
 
         let formData = new FormData();
 
-        const newImageUri = "file:///" + image.split("file:/").join("");
+        // const newImageUri = "file:///" + image.split("file:/").join("");
 
-        formData.append("image", {
-            uri: newImageUri,
-            type: mime.getType(newImageUri),
-            name: newImageUri.split("/").pop()
-        });
+        // formData.append("image", {
+        //     uri: newImageUri,
+        //     type: mime.getType(newImageUri),
+        //     name: newImageUri.split("/").pop()
+        // });
         formData.append("name", name);
         formData.append("brand", brand);
         formData.append("price", price);
