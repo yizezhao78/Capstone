@@ -4,9 +4,9 @@
 
 Including 3 variables:
 
-API_URL = /api/v1
-CONNECTION_STRING = "Connection string of your mongoDB cluster"
-secret = "Any string"
+API_URL = /api/v1  
+CONNECTION_STRING = "Connection string of your mongoDB cluster"  
+secret = "Any string"  
 
 2. "npm install" and "npm start" in the backend folder to start server
 
